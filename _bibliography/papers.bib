@@ -1,9 +1,19 @@
 ---
 ---
 
+@preprint{2312.00039,
+Author = {Forrest McKee and David Noever},
+Title = {Acoustic Cybersecurity: Exploiting Voice-Activated Systems},
+Month = {November},
+Year = {2023},
+abstract = {In this study, we investigate the emerging threat of inaudible acoustic attacks targeting digital voice assistants, a critical concern given their projected prevalence to exceed the global population by 2024. Our research extends the feasibility of these attacks across various platforms like Amazon's Alexa, Android, iOS, and Cortana, revealing significant vulnerabilities in smart devices. The twelve attack vectors identified include successful manipulation of smart home devices and automotive systems, potential breaches in military communication, and challenges in critical infrastructure security. We quantitatively show that attack success rates hover around 60%, with the ability to activate devices remotely from over 100 feet away. Additionally, these attacks threaten critical infrastructure, emphasizing the need for multifaceted defensive strategies combining acoustic shielding, advanced signal processing, machine learning, and robust user authentication to mitigate these risks.},
+arxiv = {2312.00039},
+}
+
 @preprint{2212.11126,
 Author = {Forrest McKee and David Noever},
 Title = {Chatbots in a Botnet World},
+Month = {December},
 Year = {2022},
 abstract = {Question-and-answer formats provide a novel experimental platform for investigating cybersecurity questions. Unlike previous chatbots, the latest ChatGPT model from OpenAI supports an advanced understanding of complex coding questions. The research demonstrates thirteen coding tasks that generally qualify as stages in the MITRE ATT&CK framework, ranging from credential access to defense evasion. With varying success, the experimental prompts generate examples of keyloggers, logic bombs, obfuscated worms, and payment-fulfilled ransomware. The empirical results illustrate cases that support the broad gain of functionality, including self-replication and self-modification, evasion, and strategic understanding of complex cybersecurity goals. One surprising feature of ChatGPT as a language-only model centers on its ability to spawn coding approaches that yield images that obfuscate or embed executable programming steps or links.},
 arxiv = {2212.11126},
@@ -12,6 +22,7 @@ arxiv = {2212.11126},
 @preprint{2301.03771,
 Author = {Forrest McKee and David Noever},
 Title = {Chatbots in a Honeypot World},
+Month = {January},
 Year = {2023},
 abstract = {Question-and-answer agents like ChatGPT offer a novel tool for use as a potential honeypot interface in cyber security. By imitating Linux, Mac, and Windows terminal commands and providing an interface for TeamViewer, nmap, and ping, it is possible to create a dynamic environment that can adapt to the actions of attackers and provide insight into their tactics, techniques, and procedures (TTPs). The paper illustrates ten diverse tasks that a conversational agent or large language model might answer appropriately to the effects of command-line attacker. The original result features feasibility studies for ten model tasks meant for defensive teams to mimic expected honeypot interfaces with minimal risks. Ultimately, the usefulness outside of forensic activities stems from whether the dynamic honeypot can extend the time-to-conquer or otherwise delay attacker timelines short of reaching key network assets like databases or confidential information. While ongoing maintenance and monitoring may be required, ChatGPT's ability to detect and deflect malicious activity makes it a valuable option for organizations seeking to enhance their cyber security posture. Future work will focus on cybersecurity layers, including perimeter security, host virus detection, and data security.},
 arxiv = {2301.03771},
@@ -20,6 +31,7 @@ arxiv = {2301.03771},
 @preprint{2301.13382,
 Author = {David Noever and Forrest McKee},
 Title = {Numeracy from Literacy: Data Science as an Emergent Skill from Large Language Models},
+Month = {January},
 Year = {2023},
 abstract = {Large language models (LLM) such as OpenAI's ChatGPT and GPT-3 offer unique testbeds for exploring the translation challenges of turning literacy into numeracy. Previous publicly-available transformer models from eighteen months prior and 1000 times smaller failed to provide basic arithmetic. The statistical analysis of four complex datasets described here combines arithmetic manipulations that cannot be memorized or encoded by simple rules. The work examines whether next-token prediction succeeds from sentence completion into the realm of actual numerical understanding. For example, the work highlights cases for descriptive statistics on in-memory datasets that the LLM initially loads from memory or generates randomly using python libraries. The resulting exploratory data analysis showcases the model's capabilities to group by or pivot categorical sums, infer feature importance, derive correlations, and predict unseen test cases using linear regression. To extend the model's testable range, the research deletes and appends random rows such that recall alone cannot explain emergent numeracy.},
 arxiv = {2301.13382},
@@ -28,6 +40,7 @@ arxiv = {2301.13382},
 @preprint{2301.01743,
 Author = {David Noever and Forrest McKee},
 Title = {Chatbots as Problem Solvers: Playing Twenty Questions with Role Reversals},
+Month = {January},
 Year = {2023},
 abstract = {New chat AI applications like ChatGPT offer an advanced understanding of question context and memory across multi-step tasks, such that experiments can test its deductive reasoning. This paper proposes a multi-role and multi-step challenge, where ChatGPT plays the classic twenty-questions game but innovatively switches roles from the questioner to the answerer. The main empirical result establishes that this generation of chat applications can guess random object names in fewer than twenty questions (average, 12) and correctly guess 94% of the time across sixteen different experimental setups. The research introduces four novel cases where the chatbot fields the questions, asks the questions, both question-answer roles, and finally tries to guess appropriate contextual emotions. One task that humans typically fail but trained chat applications complete involves playing bilingual games of twenty questions (English answers to Spanish questions). Future variations address direct problem-solving using a similar inquisitive format to arrive at novel outcomes deductively, such as patentable inventions or combination thinking. Featured applications of this dialogue format include complex protein designs, neuroscience metadata, and child development educational materials.},
 arxiv = {2301.01743},
@@ -36,23 +49,63 @@ arxiv = {2301.01743},
 @preprint{2305.10358,
 Author = {Forrest McKee and David Noever},
 Title = {NUANCE: Near Ultrasound Attack On Networked Communication Environments},
+Month = {April},
 Year = {2023},
 abstract = {This study investigates a primary inaudible attack vector on Amazon Alexa voice services using near ultrasound trojans and focuses on characterizing the attack surface and examining the practical implications of issuing inaudible voice commands. The research maps each attack vector to a tactic or technique from the MITRE ATT&CK matrix, covering enterprise, mobile, and Industrial Control System (ICS) frameworks. The experiment involved generating and surveying fifty near-ultrasonic audios to assess the attacks' effectiveness, with unprocessed commands having a 100% success rate and processed ones achieving a 58% overall success rate. This systematic approach stimulates previously unaddressed attack surfaces, ensuring comprehensive detection and attack design while pairing each ATT&CK Identifier with a tested defensive method, providing attack and defense tactics for prompt-response options. The main findings reveal that the attack method employs Single Upper Sideband Amplitude Modulation (SUSBAM) to generate near-ultrasonic audio from audible sources, transforming spoken commands into a frequency range beyond human-adult hearing. By eliminating the lower sideband, the design achieves a 6 kHz minimum from 16-22 kHz while remaining inaudible after transformation. The research investigates the one-to-many attack surface where a single device simultaneously triggers multiple actions or devices. Additionally, the study demonstrates the reversibility or demodulation of the inaudible signal, suggesting potential alerting methods and the possibility of embedding secret messages like audio steganography.},
 arxiv = {2305.10358},
 }
 
-@preprint{2312.00039,
-Author = {Forrest McKee and David Noever},
-Title = {Acoustic Cybersecurity: Exploiting Voice-Activated Systems},
-Year = {2023},
-abstract = {In this study, we investigate the emerging threat of inaudible acoustic attacks targeting digital voice assistants, a critical concern given their projected prevalence to exceed the global population by 2024. Our research extends the feasibility of these attacks across various platforms like Amazon's Alexa, Android, iOS, and Cortana, revealing significant vulnerabilities in smart devices. The twelve attack vectors identified include successful manipulation of smart home devices and automotive systems, potential breaches in military communication, and challenges in critical infrastructure security. We quantitatively show that attack success rates hover around 60%, with the ability to activate devices remotely from over 100 feet away. Additionally, these attacks threaten critical infrastructure, emphasizing the need for multifaceted defensive strategies combining acoustic shielding, advanced signal processing, machine learning, and robust user authentication to mitigate these risks.},
-arxiv = {2312.00039},
-}
-
 @preprint{2307.12204,
 Author = {Forrest McKee and David Noever},
 Title = {Adversarial Agents For Attacking Inaudible Voice Activated Devices},
+Month = {July},
 Year = {2023},
 abstract = {The paper applies reinforcement learning to novel Internet of Thing configurations. Our analysis of inaudible attacks on voice-activated devices confirms the alarming risk factor of 7.6 out of 10, underlining significant security vulnerabilities scored independently by NIST National Vulnerability Database (NVD). Our baseline network model showcases a scenario in which an attacker uses inaudible voice commands to gain unauthorized access to confidential information on a secured laptop. We simulated many attack scenarios on this baseline network model, revealing the potential for mass exploitation of interconnected devices to discover and own privileged information through physical access without adding new hardware or amplifying device skills. Using Microsoft's CyberBattleSim framework, we evaluated six reinforcement learning algorithms and found that Deep-Q learning with exploitation proved optimal, leading to rapid ownership of all nodes in fewer steps. Our findings underscore the critical need for understanding non-conventional networks and new cybersecurity measures in an ever-expanding digital landscape, particularly those characterized by mobile devices, voice activation, and non-linear microphones susceptible to malicious actors operating stealth attacks in the near-ultrasound or inaudible ranges. By 2024, this new attack surface might encompass more digital voice assistants than people on the planet yet offer fewer remedies than conventional patching or firmware fixes since the inaudible attacks arise inherently from the microphone design and digital signal processing.},
 arxiv = {2307.12204},
+}
+
+@inproceedings{McKee2023,
+author={McKee, Forrest and Noever, D.},
+title={NEAR ULTRASONIC ATTACK AND DEFENSIVE COUNTERMEASURES},
+series={International Journal of Network Security {\&} Its Applications},
+year={2023},
+month={May},
+day={01},
+volume={15},
+abstract={The practical implications of issuing inaudible voice commands. The research mapped each attack vector to a tactic or technique from the MITRE ATT{\&}CK matrix, covering enterprise, mobile, and Industrial Control System (ICS) frameworks. The experiment involved generating and surveying fifty near-ultrasonic audios to assess the attacks' effectiveness. Unprocessed commands achieved a 100{\%} success rate, while processed commands achieved an 86{\%} acknowledgment rate and a 58{\%} overall executed (successful) rate. The research systematically stimulated previously unaddressed attack surfaces, aiming for comprehensive detection and attack design. Each ATT{\&}CK identifier was paired with a tested defensive method, providing attack and defense tactics. The research findings revealed that the attack method employed Single Upper Sideband Amplitude Modulation (SUSBAM) to generate near-ultrasonic audio from audible sources. By eliminating the lower sideband, the design achieved a 6 kHz minimum from 16-22 kHz while remaining inaudible after transformation. The research also investigated the one-to-many attack surface, exploring scenarios where a single device triggers multiple actions or devices. Furthermore, the study demonstrated the reversibility or demodulation of the inaudible signal, suggesting potential alerting methods and the possibility of embedding secret messages like audio steganography. A critical methodological advance included tapping into the post-processed audio signal when the server demodulates the signal for comparison to both the audible and inaudible input signals to improve the actionable success rates.},
+doi={10.5121/ijnsa.2023.15301},
+url={https://doi.org/10.5121/ijnsa.2023.15301}
+}
+
+@article{article,
+author = {McKee, Forrest and Noever, D.},
+year = {2023},
+month = {05},
+pages = {89-107},
+title = {Nuance: Near Ultrasound Attack on Networked Communication Environments},
+volume = {12},
+journal = {International Journal on Cybernetics & Informatics},
+doi = {10.5121/ijci.2023.120307}
+}
+
+@article{article,
+author = {McKee, Forrest and Noever, D.},
+year = {2023},
+month = {03},
+pages = {1-34},
+title = {The Evolving Landscape of Cybersecurity: Red Teams, Large Language Models, and the Emergence of New AI Attack Surfaces},
+volume = {13},
+journal = {International Journal on Cryptography and Information Security},
+doi = {10.5121/ijcis.2023.13101}
+}
+
+@article{article,
+author = {McKee, Forrest and Noever, D.},
+year = {2023},
+month = {03},
+pages = {77-95},
+title = {Chatbots in a Botnet World},
+volume = {12},
+journal = {International Journal on Cybernetics & Informatics},
+doi = {10.5121/ijci.2023.120207}
 }
