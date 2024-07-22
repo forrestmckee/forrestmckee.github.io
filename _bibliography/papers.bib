@@ -2,7 +2,7 @@
 ---
 
 @inproceedings{McKee2024SafeguardingSPTM,
-	journal={Security, Privacy and Trust Management},
+  journal={Security, Privacy and Trust Management},
 	organization={12th International Conference of Security, Privacy and Trust Management},
 	doi={10.5121/csit.2024.141112},
 	publisher={Academy & Industry Research Collaboration Center},
@@ -21,6 +21,7 @@
   author={McKee, Forrest and Noever, David},
   journal={arXiv preprint arXiv:2401.15817},
   year={2024},
+  month={1},
   abstract={This paper investigates a novel algorithmic vulnerability when imperceptible image layers confound multiple vision models into arbitrary label assignments and captions. We explore image preprocessing methods to introduce stealth transparency, which triggers AI misinterpretation of what the human eye perceives. The research compiles a broad attack surface to investigate the consequences ranging from traditional watermarking, steganography, and background-foreground miscues. We demonstrate dataset poisoning using the attack to mislabel a collection of grayscale landscapes and logos using either a single attack layer or randomly selected poisoning classes. For example, a military tank to the human eye is a mislabeled bridge to object classifiers based on convolutional networks (YOLO, etc.) and vision transformers (ViT, GPT-Vision, etc.). A notable attack limitation stems from its dependency on the background (hidden) layer in grayscale as a rough match to the transparent foreground image that the human eye perceives. This dependency limits the practical success rate without manual tuning and exposes the hidden layers when placed on the opposite display theme (e.g., light background, light transparent foreground visible, works best against a light theme image viewer or browser). The stealth transparency confounds established vision systems, including evading facial recognition and surveillance, digital watermarking, content filtering, dataset curating, automotive and drone autonomy, forensic evidence tampering, and retail product misclassifying. This method stands in contrast to traditional adversarial attacks that typically focus on modifying pixel values in ways that are either slightly perceptible or entirely imperceptible for both humans and machines.}
 }
 
@@ -29,6 +30,7 @@
   author={Noever, David and McKee, Forrest},
   journal={arXiv preprint arXiv:2402.09671},
   year={2024},
+  month={2},
   abstract={This investigation reveals a novel exploit derived from PNG image file formats, specifically their alpha transparency layer, and its potential to fool multiple AI vision systems. Our method uses this alpha layer as a clandestine channel invisible to human observers but fully actionable by AI image processors. The scope tested for the vulnerability spans representative vision systems from Apple, Microsoft, Google, Salesforce, Nvidia, and Facebook, highlighting the attack's potential breadth. This vulnerability challenges the security protocols of existing and fielded vision systems, from medical imaging to autonomous driving technologies. Our experiments demonstrate that the affected systems, which rely on convolutional neural networks or the latest multimodal language models, cannot quickly mitigate these vulnerabilities through simple patches or updates. Instead, they require retraining and architectural changes, indicating a persistent hole in multimodal technologies without some future adversarial hardening against such vision-language exploits}
 }
 
@@ -37,6 +39,7 @@
   author={McKee, Forrest and Noever, David},
   journal={arXiv preprint arXiv:2404.04769},
   year={2024},
+  month={4},
   abstract={The widespread adoption of voice-activated systems has modified routine human-machine interaction but has also introduced new vulnerabilities. This paper investigates the susceptibility of automatic speech recognition (ASR) algorithms in these systems to interference from near-ultrasonic noise. Building upon prior research that demonstrated the ability of near-ultrasonic frequencies (16 kHz - 22 kHz) to exploit the inherent properties of microelectromechanical systems (MEMS) microphones, our study explores alternative privacy enforcement means using this interference phenomenon. We expose a critical vulnerability in the most common microphones used in modern voice-activated devices, which inadvertently demodulate near-ultrasonic frequencies into the audible spectrum, disrupting the ASR process. Through a systematic analysis of the impact of near-ultrasonic noise on various ASR systems, we demonstrate that this vulnerability is consistent across different devices and under varying conditions, such as broadcast distance and specific phoneme structures. Our findings highlight the need to develop robust countermeasures to protect voice-activated systems from malicious exploitation of this vulnerability. Furthermore, we explore the potential applications of this phenomenon in enhancing privacy by disrupting unauthorized audio recording or eavesdropping. This research underscores the importance of a comprehensive approach to securing voice-activated systems, combining technological innovation, responsible development practices, and informed policy decisions to ensure the privacy and security of users in an increasingly connected world.}
 }
 
