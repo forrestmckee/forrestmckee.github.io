@@ -12,6 +12,6 @@ repos:
     rev: 2.3.34
     hooks:
       - id: nbdev_clean
-        entry: nbdev_clean --fname
+        entry: bash -c '[ $# -eq 0 ] || nbdev_clean --fname "$@"'
         pass_filenames: true
         files: '.*\.ipynb$'
