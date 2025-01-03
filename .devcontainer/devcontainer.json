@@ -17,7 +17,26 @@
 
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one"],
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "sissel.shopify-liquid",
+        "yzhang.markdown-all-in-one",
+        "ms-toolsai.jupyter",
+        "oderwat.indent-rainbow",
+        "eamodio.gitlens",
+        "github.vscode-github-actions",
+        "ms-toolsai.jupyter-keymap",
+        "dbaeumer.vscode-eslint",
+        "moalamri.inline-fold",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "mechatroner.rainbow-csv",
+        "Shopify.ruby-lsp"
+      ],
       "settings": {
         // use prettier code formatter as default formatter
         "editor.defaultFormatter": "esbenp.prettier-vscode",
