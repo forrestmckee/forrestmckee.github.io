@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-vector-efficiency-why-zeros-are-costing-you-memory",
+      
+        title: "Vector Efficiency: Why Zeros Are Costing You Memory",
+      
+      description: "What are sparse and dense vectors? What are vector representations?",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/sparse-vs-dense-vectors/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
