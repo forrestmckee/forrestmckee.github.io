@@ -79,7 +79,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-vector-efficiency-why-zeros-are-costing-you-memory",
+            },{id: "post-relevance-matters-how-tf-idf-finds-what-counts",
+      
+        title: "Relevance Matters: How TF-IDF Finds What Counts",
+      
+      description: "Starting from text and implementing TF-IDF",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/building-up-to-tfidf/";
+        
+      },
+    },{id: "post-vector-efficiency-why-zeros-are-costing-you-memory",
       
         title: "Vector Efficiency: Why Zeros Are Costing You Memory",
       
